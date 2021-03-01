@@ -1,0 +1,16 @@
+/*  1 march 2021
+    Rithesh singh
+    to find factorial of a number  */
+#include <stdio.h>
+#include <math.h>
+int main() {
+int x;
+int ans = 1;
+scanf("%d",&x);
+for(int i=1;i<=x;++i)
+{
+    ans *= i;
+}
+printf("%d!=%d",x,ans);
+return 0;
+}
