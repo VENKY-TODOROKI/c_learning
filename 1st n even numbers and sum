@@ -1,0 +1,16 @@
+/*  1 march 2021
+    Rithesh singh
+    to display first n even natural numbers and their sum  */
+#include <stdio.h>
+#include <math.h>
+int main() {
+int n,sum=0;
+scanf("%d",&n);
+for (int i=2; i<=2*n; i+=2)
+{
+    printf("%d   ",i);
+    sum+=i;
+}
+printf("\nsum = %d",sum);
+return 0;
+}
