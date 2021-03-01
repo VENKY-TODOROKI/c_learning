@@ -1,0 +1,16 @@
+/*  1 march 2021
+    Rithesh singh
+    harmonic progression and their sum */
+#include <stdio.h>
+int main() {
+int n;
+double sum = 0.0;
+scanf("%d",&n);
+for (float i=1; i<=n; ++i)
+{
+    printf("1/%.0f ",i);
+    sum += (1.0)/i;
+}
+printf("\nsum = %lf",sum);
+return 0;
+}
