@@ -1,0 +1,11 @@
+//3rd march 2021
+//Rithesh singh
+//dec to octal and hexadecimal
+#include <stdio.h>
+int main() {
+   int input ;
+   printf("enter a decimal number \n");
+   scanf("%d",&input);
+   printf(" octal number is :%o \n hexadecimal number is :%x",input,input);
+   return 0;
+}
