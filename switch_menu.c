@@ -21,15 +21,15 @@ switch(value)
     int length, breadth ;
     scanf("%d %d",&length, &breadth);
     area = length* breadth;
-    printf("\narea of the given square is \t%d",area);
+    printf("\narea of the given rectangle is \t%d",area);
     break;
 
     case 3:
     printf("its a triangle ");
     int base , height  ;
     scanf("%d %d",&base, &height);
-    area = base* height;
-    printf("\narea of the given square is \t%d",area);
+    float area = 0.5* base* height;
+    printf("\narea of the given triangle is \t%d",area);
     break;
 
     case 4:
@@ -37,7 +37,7 @@ switch(value)
     int radius ;
     scanf("%d",&radius);
     float area = 3.14 * radius * radius;
-    printf("\narea of the given square is \t%f",area);
+    printf("\narea of the given circle is \t%f",area);
     break;
 
     default :
