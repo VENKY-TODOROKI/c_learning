@@ -29,7 +29,7 @@ switch(value)
     int base , height  ;
     scanf("%d %d",&base, &height);
     float area = 0.5* base* height;
-    printf("\narea of the given triangle is \t%d",area);
+    printf("\narea of the given triangle is \t%f",area);
     break;
 
     case 4:
